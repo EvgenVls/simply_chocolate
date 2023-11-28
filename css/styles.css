@@ -58,7 +58,7 @@ body {
 }
 /* ============ /COMMON STYLES ============ */
 
-/* ============ MOBILE HEADER STYLES ============ */
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
     .container {
         padding: 0 20px;
@@ -67,12 +67,13 @@ body {
 
 @media screen and (min-width: 375px) {
     .container {
-        max-width: 375px;
+        max-width: 335px;
         padding: 0;
         margin: 0 auto;
     }
 }
 
+/* ============ MOBILE HEADER STYLES ============ */
 .logotype {
     font-size: 18px;
     font-weight: 700;
@@ -80,10 +81,6 @@ body {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: #111111;
-}
-
-.logotype-accent {
-    font-style: italic;
 }
 
 .menu-list-item {
@@ -94,8 +91,39 @@ body {
     color: #111111;
 }
 
-.social-icon {
-    fill: transparent;
+.menu {
+    display: none;
+}
+
+.social-list {
+    display: none;
+}
+
+.mobile-menu-icon {
     stroke: #111111;
 }
 /* ============ /MOBILE HEADER STYLES ============ */
+
+
+@media screen and (min-width: 768px) {
+    .section {
+        padding-bottom: 80px;
+    }
+
+    .container {
+        max-width: 704px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    .section {
+        padding-bottom: 100px;
+    }
+
+    .container {
+        max-width: 1136px;
+    }
+    
+}
