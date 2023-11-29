@@ -12,14 +12,19 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a class="logotype link" href=""><i>simply</i> chocolate
-                <svg class="logotype-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-logotype"></use>
-                </svg>
-            </a>
+    <header class="page-header">
+        <div class="header-wrapper container">
             <nav class="menu">
+                <a class="logotype link" href="./index.html">
+                    <i>SIMPLY</i>&nbsp;CHOCOLATE
+                    <svg 
+                        class="logotype-icon" 
+                        width="21" 
+                        height="21" 
+                        aria-label="simply chocolate logotype icon">
+                        <use href="./images/icons.svg#icon-logotype"></use>
+                    </svg>
+                </a>
                 <ul class="menu-list list">
                     <li class="menu-list-item">Home</li>
                     <li class="menu-list-item">How it&apos;s made&quest;</li>
@@ -42,11 +47,11 @@
                     </a>
                 </li>
             </ul>
-            <a class="mobile-menu-btn" href="">
+            <button class="mobile-menu-btn" type="button">
                 <svg class="mobile-menu-icon" width="28" height="28">
                     <use href="./images/icons.svg#icon-burger"></use>
                 </svg>
-            </a>
+            </button>
         </div>
     </header>
     <main>
@@ -132,7 +137,7 @@
         <section class="making section">
             <div class="container">
                 <h2 class="making-title">how it&apos;s made&quest;</h2>
-                <img src="./images/hot-chocolate.jpg" alt="making chocolate">
+                <img src="./images/hot-chocolate_mob.jpg" alt="making chocolate">
                 <h3 class="making-list-title">Try our chocolates today and discover the perfect balance of flavor</h3>
                 <ul class="making-list">
                     <li class="making-list-item">
